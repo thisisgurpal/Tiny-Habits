@@ -1,5 +1,5 @@
 # General Assembly Project 3 - TinyHabits
-<img src="https://user-images.githubusercontent.com/97416784/160812981-bd9d0f42-f361-4f6c-bf7f-0a6f1875edcf.JPG" width="1000">
+<img src="https://user-images.githubusercontent.com/97416784/160813446-b3cfeb0a-2bdc-4fa1-bcda-4a5a6963053f.JPG" width="1000">
 
 # Link
 https://reciplease-thisisgurpal.netlify.app/

@@ -12,7 +12,7 @@ https://reciplease-thisisgurpal.netlify.app/
 * Have visually impressive design.
 
 # Technologies used
-JavaScript, MongoDB, Mongoose, jsonwebtoken, Express, Node.js, React, Chakra, Axios, SASS.
+JavaScript, MongoDB, Mongoose, jsonwebtoken, Express, Node.js, React, Chakra, Axios, SASS, CSS.
 
 # Approach taken
 <h3>Planning</h3>

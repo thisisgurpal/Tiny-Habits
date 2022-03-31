@@ -32,6 +32,8 @@ In this planning process we also thought about how we want our API to look, the 
 <img src="https://user-images.githubusercontent.com/97416784/160844486-f5b86822-16c3-4925-b533-024f9ef09ffe.JPG" width="500">
 <img src="https://user-images.githubusercontent.com/97416784/160844913-3c7af4c0-041c-4267-bba3-3efb23706cee.JPG" width="500">
 
+<h3>Front End</h3>
+
 # Bugs
 
 # Challenges

@@ -18,7 +18,7 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 JavaScript, MongoDB, Mongoose, jsonwebtoken, Express, Node.js, React, Chakra, Axios, SASS, CSS.
 
 # Planning & organisation
-Initially to start with comming up with ideas and compenents for this application we brain stormed for about 5-10 minutes. Any idea that comes to mind we put down and then narrowed it down upon reviewing.
+Initially to start with comming up with ideas and compenents for this application we brain stormed for about 5-10 minutes. Any idea that comes to mind we put down and then narrowed it down upon review.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837626-f27d783c-92d7-458c-a6ff-e3fbc33345d7.JPG" width="1000">
 We then started to wireframe what we wanted the application to look like, this is going to be our minimal viable product.

@@ -59,6 +59,8 @@ If you click on an event you will be taken to the event page. Here you can see t
 <img src="https://user-images.githubusercontent.com/97416784/161272322-70b21bdf-cb22-414e-a3f7-6133544c49a9.JPG" width="1000">
 
 # Code examples
+For the schemas of the events, users and habits we ensured all the fields we needed were included and also where necessary we used virtual field, for example the password confirmation on the user schema is a virtual field.
+<h3></h3>
 <table>
   <tr>
     <td valign="top"><img src="https://user-images.githubusercontent.com/97416784/160844392-87a9da00-e215-4655-bc1f-8515bd4450c4.JPG" width="300"></td>
@@ -66,7 +68,13 @@ If you click on an event you will be taken to the event page. Here you can see t
     <td valign="top"><img src="https://user-images.githubusercontent.com/97416784/160844486-f5b86822-16c3-4925-b533-024f9ef09ffe.JPG" width="300"></td>
   </tr>
 </table>
+To retreive the information needed we created our controllers. This example below is a controller to retrieve the habits completed for a user with populating certain fields where necessary.
+<h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279803-f7c5c6d3-0599-4c9d-bd62-8196bdc211f7.JPG" width="1000">
+This controller has to run through a secure route first to authorise the user before getting the habit data fron the specified route.
+<h3></h3>
+<img src="https://user-images.githubusercontent.com/97416784/161281869-2ac3b60a-09a5-48ba-96db-493d246e6487.JPG" width="500">
+To implement the image uploader I had to use my cloudinary details in an environment file which I pulled into a JavaScript file. The image upload code will add the image to a cloudinary folder, retreive the url create from cloudianry and use that to display the image on the front end. 
 <img src="https://user-images.githubusercontent.com/97416784/161280267-84afa9b3-5fbd-44f5-a017-8f50c5059e78.JPG" width="500">
 
 # Challenges

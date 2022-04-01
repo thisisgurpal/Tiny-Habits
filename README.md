@@ -72,6 +72,3 @@ If you click on an event you will be taken to the event page. Here you can see t
 # Challenges
 
 # Wins
-
-# Contact
-https://www.linkedin.com/in/gurpal-gohler/

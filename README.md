@@ -69,7 +69,7 @@ For the schemas of the events, users and habits we ensured all the fields we nee
     <td valign="top"><img src="https://user-images.githubusercontent.com/97416784/160844486-f5b86822-16c3-4925-b533-024f9ef09ffe.JPG" width="300"></td>
   </tr>
 </table>
-To retreive the information needed we created our controllers. This example below is a controller to retrieve the habits completed for a user with populating certain fields where necessary.
+To retrieve the information needed we created our controllers. This example below is a controller to retrieve the habits completed for a user with populating certain fields where necessary.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279803-f7c5c6d3-0599-4c9d-bd62-8196bdc211f7.JPG" width="1000">
 This controller has to run through a secure route first to authorise the user before getting the habit data fron the specified route.

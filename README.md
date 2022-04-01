@@ -72,7 +72,7 @@ For the schemas of the events, users and habits we ensured all the fields we nee
 To retrieve the information needed we created our controllers. This example below is a controller to retrieve the habits completed for a user with populating certain fields where necessary.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279803-f7c5c6d3-0599-4c9d-bd62-8196bdc211f7.JPG" width="1000">
-This controller has to run through a secure route first to authorise the user before getting the habit data fron the specified route.
+This controller has to run through an authorisation process (secureRoute) for the user before getting the habit data from the specified route.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161281869-2ac3b60a-09a5-48ba-96db-493d246e6487.JPG" width="500">
 To implement the image uploader I had to use my cloudinary details in an environment file which I pulled into a JavaScript file. The image upload code will add the image to a cloudinary folder, retreive the url create from cloudianry and use that to display the image on the front end. 

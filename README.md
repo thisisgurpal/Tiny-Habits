@@ -27,9 +27,10 @@ We then started to wireframe what we wanted the application to look like, this i
 In this planning process we also thought about how we want our API to look, the data structure and teh fields needed. The user will have an array of events they have joined and habits they have completed. The event will have an array of users joined (members) and habits completed. The habit completed will have the owner (user that created the habit) and the associated event.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837814-65e31b8c-0856-4f11-8548-b4431cd2417b.JPG" width="500">
-We then started to move onto trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly resposible for helping to build the back end, implemementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing.
+We then started to move onto trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly resposible for helping to build the back end, implemementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing. 
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279199-00b87a0c-cd8a-4ee0-a341-4370899be3ad.JPG" width="1000">
+To work together on the code as group we used branches on github and then when merging to the developement branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as group. It was a great team working experience and I'm happy with how we work together.
 
 # Walk through
 <h3>Home page</h3>
@@ -75,8 +76,5 @@ This controller has to run through a secure route first to authorise the user be
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161281869-2ac3b60a-09a5-48ba-96db-493d246e6487.JPG" width="500">
 To implement the image uploader I had to use my cloudinary details in an environment file which I pulled into a JavaScript file. The image upload code will add the image to a cloudinary folder, retreive the url create from cloudianry and use that to display the image on the front end. 
+<h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161280267-84afa9b3-5fbd-44f5-a017-8f50c5059e78.JPG" width="500">
-
-# Challenges
-
-# Wins

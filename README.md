@@ -11,7 +11,7 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 
 # Brief
 * Build a full-stack application using an Express API to serve our data from a Mongo database. 
-* Consume our API with a seperate front-end build in react.
+* Consume our API with a seperate front-end built in react.
 * Have visually impressive design.
 
 # Technologies used

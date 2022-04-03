@@ -78,3 +78,9 @@ This controller has to run through an authorisation process (secureRoute) for th
 To implement the image uploader I had to use my cloudinary details in an environment file which I pulled into a JavaScript file. The image upload code will add the image to a cloudinary folder, retreive the url create from cloudianry and use that to display the image on the front end. 
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161280267-84afa9b3-5fbd-44f5-a017-8f50c5059e78.JPG" width="500">
+
+# Challenges
+The challenge understanding how to build the back end of a full stack application and how to link this to the front end. Once I realised how this all works it made a lot more sense on creating and seeding your own database.
+
+# Wins
+My biggest win for this project was building a full stack application and working in a group using GitHub to merge branches together. 

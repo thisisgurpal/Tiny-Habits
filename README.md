@@ -36,6 +36,7 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 * Cloudinary
 * Insomnia
 * Heroku
+* Visual Studio Code
 
 # Planning & organisation
 Initially to start with comming up with ideas and compenents for this application we brain stormed for about 5-10 minutes. Any idea that comes to mind we put down and then narrowed it down upon review.

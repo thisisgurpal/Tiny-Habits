@@ -21,7 +21,7 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 * Set up the back end server: `yarn serve`
 * Start the front end server: `yarn start`
 
-# Technologies used
+# Technologies and tools used
 * JavaScript
 * MongoDB
 * Mongoose

@@ -1,5 +1,5 @@
 # General Assembly Project 3 - TinyHabits
-My third project at General Assembly was with a group, and we chose to develop a habit app that allows you to join upcoming 30 day habit challenges using React, Node JS, Express JS and MongoDB (MERN stack). You will be able to register, create a profile then add your habits to events when they are live and also comment on events. For this project I helped create our own API of events, users and habits. My main responsibilities were to help build the back end, bug fixing, design the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary and also seeding the users. The idea behind this application is to help others build a habit, something that can a lot of us can find difficult and struggle with. You can find this application <a href="https://tiny-habits-sei61.herokuapp.com/">here</a>.
+My third project at General Assembly was with a <a href="https://github.com/Borahm">Borahm Cho</a> and <a href="https://github.com/pete-livermore">Pete Livermore</a>. We chose to develop a habit app that allows you to join upcoming 30 day habit challenges using React, Node JS, Express JS and MongoDB (MERN stack). You will be able to register, create a profile then add your habits to events when they are live and also comment on events. For this project I helped create our own API of events, users and habits. My main responsibilities were to help build the back end, bug fixing, design the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary and also seeding the users. The idea behind this application is to help others build a habit, something that can a lot of us can find difficult and struggle with. You can find this application <a href="https://tiny-habits-sei61.herokuapp.com/">here</a>.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160813446-b3cfeb0a-2bdc-4fa1-bcda-4a5a6963053f.JPG" width="1000">
 
@@ -13,6 +13,13 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 * Build a full-stack application using an Express API to serve our data from a Mongo database. 
 * Consume our API with a seperate front-end built in react.
 * Have visually impressive design.
+
+# Code Installation
+* Clone or download the repo
+* Install the back end dependencies: run `yarn`
+* Seed the database: run `yarn seed`
+* Set up the back end server: run `yarn serve`
+* Start the front end server: run `yarn start`
 
 # Technologies used
 JavaScript, MongoDB, Mongoose, jsonwebtoken, Express, Node.js, React, Chakra, Axios, SASS, CSS.

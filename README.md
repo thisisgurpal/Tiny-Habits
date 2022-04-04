@@ -16,13 +16,25 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 
 # Code Installation
 * Clone or download the repo
-* Install the back end dependencies: run `yarn`
-* Seed the database: run `yarn seed`
-* Set up the back end server: run `yarn serve`
-* Start the front end server: run `yarn start`
+* Install dependencies: `yarn`
+* Seed the database: `yarn seed`
+* Set up the back end server: `yarn serve`
+* Start the front end server: `yarn start`
 
 # Technologies used
-JavaScript, MongoDB, Mongoose, jsonwebtoken, Express, Node.js, React, Chakra, Axios, SASS, CSS.
+* JavaScript
+* MongoDB
+* Mongoose
+* JWT
+* Express
+* Node.js
+* React
+* Chakra
+* Axios
+* SASS
+* CSS
+* Cloudinary
+* Insomnia
 
 # Planning & organisation
 Initially to start with comming up with ideas and compenents for this application we brain stormed for about 5-10 minutes. Any idea that comes to mind we put down and then narrowed it down upon review.

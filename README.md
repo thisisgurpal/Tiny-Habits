@@ -51,7 +51,8 @@ In this planning process we also thought about how we want our API to look, the 
 We then started to move onto trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly responsible for helping to build the back end, implementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing. 
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279199-00b87a0c-cd8a-4ee0-a341-4370899be3ad.JPG" width="1000">
-To work together on the code as a group we used branches on github and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. It was a great team working experience and I'm happy with how we work together.
+To work together on the code as a group we used branches on github and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. Every morning we had a stand up on zoom to discuss how we were getting on with the work and organising what everyone is doing. This really helped to prevent conflicts and productivity. It was a great team working experience and I'm happy with how we work together. 
+
 
 # Walk through
 <h3>Home page</h3>

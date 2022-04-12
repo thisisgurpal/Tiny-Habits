@@ -55,7 +55,7 @@ To work together on the code as group we used branches on github and then when m
 
 # Walk through
 <h3>Home page</h3>
-When you land on the home page you will be able to see the current events that have either passed or available to join. To join events you will need to log in.
+When you land on the home page you will be able to see the current events that have either passed or available to join. To join events you will need to log in. These events you can see have been seeded in the back end by us and relevant controllers were created, this enable us to do an Axios get request on the front end to retrieve the event information and display it.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161271850-45a3badf-255b-4b29-9fc9-7546abc09fff.JPG" width="1000">
 <h3>Login and Register</h3>

@@ -55,11 +55,15 @@ To work together on the code as group we used branches on github and then when m
 
 # Walk through
 <h3>Home page</h3>
-When you land on the home page you will be able to see the current events that have either passed or available to join. To join events you will need to log in. These events you can see have been seeded in the back end by us and relevant controllers were created, this enable us to do an Axios get request on the front end to retrieve the event information and display it.
+These events you can see have been seeded in the back end manually by us whilst also adding the relevant controllers to get the data on a request. After doing this we were then able to do an Axios get request on the front end to retrieve the event information and then display them. Each of these events are wrapped in a Link tag from React Router DOM which takes to an event path using the event id. Further we create nav bar that remains at the top of the page that include links to the register and login pages as well as the TinyHabit logo which will take you to the home page.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161271850-45a3badf-255b-4b29-9fc9-7546abc09fff.JPG" width="1000">
 <h3>Login and Register</h3>
-To register you will need to input your details into the register form, and then you will be able to log in. If relevant details are missing these forms will prompt you with an error.
+To create the register and login forms we used the FormControl tag from Chakra framework. The forms have a handleSubmit function when they are submitted. This function will do an Axios post request of the inputed data using a controller created on the back end. To input the data and save it in order to do the post request we had to create two states and handle change function to update them when inputs are changed. One of is a state that contains infromation input into the fields, and the other one contains the error messages if the data the user tried to submit was not in the correct format.
+<h3></h3>
+In the back end controller we made sure that a token is create for each new user. Within the handleSubmit function for the login form, it will take the token created on the back end and set it to the local storage. This lets us know what user is currently logged into the application.
+<h3></h3>
+In the register form input there is an profile picture uploader which is a task that I was responsible for. This uploader was not only used here but also on the habits completed form, it is also included on the forms that allow you to edit your habits sumbmitted and profile pictures too. This is done using cloudinary, so when an image is uploaded it gets sent to to cloudinary to retieve a hosted path for the image which is then sent back to be displayed and saved into the state on the front end.
 <h3></h3>
 <table>
   <tr>
@@ -68,15 +72,17 @@ To register you will need to input your details into the register form, and then
   </tr>
 </table>
 <h3>Home page - Logged in</h3>
-Once logged in you will see the home page is a little different. You can now see the events you have joined at the top from which you can filter through them.
+We now know the user is logged in due to the token saved in the local storage, we wanted the home page to be personal to the user so you can now see at the top of the page the user is welcomed and their joined events are shown. This can be done through sending the token with a get request, and on the back end we made controller that will gather the users details which is what we used to display the information. We also changed the nav bar when the user is logged in to show the profile and log out buttons.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161272078-3af64464-823d-4e38-bc7f-0f0666bd79c8.JPG" width="1000">
 <h3>Profile page</h3>
-You are now able to head over to your profile page where you can edit your personal details and view your joined events. You can also view, edit or delete all your habits completed.
+The profile page is something that I was mainly responsible for, I made sure to include the users name, profile picture, events and feed of the habits they have completed. I've also added an edit functionality which takes you to a form with the users current details, they will then be able to change the details needed and submit them again which will run an Axios put request to update the user on the back end. 
+<h3></h3>
+To create the habits completed feed I took the data of all the completed habits and displayed them with there event name, habit picture, data completed and desciption. Then I thought about how the user might want to filter through these to look back at their activity, so I added a filter functionality to look at specific events and dates if needed. Further if the user needs to delete a habit or edit one I made sure it's possible to do so. When delete is clicked an Axios delete request is ran using the users token from local storage so we know they are authorises. If they need to edit their details a form will shown to let them do so, once the new details are submitted an Axios put request is ran which updates the users habit in the back end. I used the map array method on the habits data to show them, also I sorted them in data order so you can see the most recent at the top.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161272222-7507210e-d179-4a0a-ac9a-684ab99a8742.JPG" width="1000">
 <h3>Event page</h3>
-If you click on an event you will be taken to the event page. Here you can see the details of the event and view all the habits completed for this event. You are also able to like the event and add a comment on the event.
+To develop the event page we first had to get the event data from the back end. This is done using a get request to a path using the event id. This event id is retieved using the useParams method from React Router DOM. We ensured to show on the description, image, members, dates, comments and habits feed on this page. We used the Link tag on the members avatars and names in order to take you to their profile pages.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161272322-70b21bdf-cb22-414e-a3f7-6133544c49a9.JPG" width="1000">
 

@@ -11,7 +11,7 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 
 # Brief
 * Build a full-stack application using an Express API to serve our data from a Mongo database. 
-* Consume our API with a seperate front-end built in react.
+* Consume our API with a seperate front end built in react.
 * Have a visually impressive design.
 
 # Code Installation
@@ -39,19 +39,19 @@ Gurpal Gohler (LinkedIn): https://www.linkedin.com/in/gurpal-gohler/
 * Visual Studio Code
 
 # Planning & organisation
-Initially to start with coming up with ideas and components for this application we brainstormed for about 5-10 minutes. Any idea that comes to mind we put down and then narrowed it down upon review.
+Initially to start with coming up with ideas and components for this application we brainstormed for about 5-10 minutes. Any idea that came to mind we put down and then narrowed it down upon review.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837626-f27d783c-92d7-458c-a6ff-e3fbc33345d7.JPG" width="1000">
-We then started to wireframe what we wanted the application to look like, this is going to be our minimal viable product.
+We then started to wireframe what we wanted the application to look like, this become our minimal viable product.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837933-6cc3fc71-f6e9-4625-a503-40b007695b35.JPG" width="1000">
 In this planning process we also thought about how we want our API to look, the data structure and the fields needed. The user will have an array of events they have joined and habits they have completed. The event will have an array of users joined (members) and habits completed. The habit completed will have the owner (user that created the habit) and the associated event.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837814-65e31b8c-0856-4f11-8548-b4431cd2417b.JPG" width="500">
-We then started to move onto trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly responsible for helping to build the back end, implementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing. 
+We then started to move onto Trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly responsible for helping to build the back end, implementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing. 
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279199-00b87a0c-cd8a-4ee0-a341-4370899be3ad.JPG" width="1000">
-To work together on the code as a group we used branches on github and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. Every morning we had a stand up on zoom to discuss how we were getting on with the work and organising what everyone is doing. This really helped to prevent conflicts and productivity. It was a great team working experience and I'm happy with how we work together. 
+To work together on the code as a group we used branches on GitHub and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. Every morning we had a stand up on zoom to discuss how we were getting on with the work and organising what everyone is doing. This really helped to prevent conflicts and productivity. It was a great team working experience and I'm happy with how we work together. 
 
 
 # Walk through
@@ -108,12 +108,12 @@ To implement the image uploader I had to use my cloudinary details in an environ
 <img src="https://user-images.githubusercontent.com/97416784/161280267-84afa9b3-5fbd-44f5-a017-8f50c5059e78.JPG" width="500">
 
 # Key learning and takeaways
-My main learning for this project was understanding how Full-Stack applications work, from building the back end and the front end. Learning how to install MongoDB and use it to create a database to be used in the back end is something I haven’t done before and was great to learn and implement. This is the first project of mine where I used a styling framework (in this case it was Chakra framework). I quite enjoy doing CSS styling so it took some practice to get used to the way you can style using frameworks. However the more I styled using the framework I could see how easy it was to use and read.
+My main learning for this project was understanding how full-stack applications work, from building the back end and the front end. Learning how to install MongoDB and use it to create a database to be used in the back end is something I haven’t done before and was great to learn and implement. This is the first project of mine where I used a styling framework (in this case it was Chakra framework). I quite enjoy doing CSS styling so it took some practice to get used to the way you can style using frameworks. However the more I styled using the framework I could see how easy it was to use and read.
 
-Another big win for me I would say is how I worked with my team, as we were organised, efficient and effective. I learnt how to do branching on github repositories and merge branches together, also I found that we split up the work well and played to each other's strengths. Using tools like Miro and Trello helped our organisation so we prevented as many conflicts with the code as possible.
+Another big win for me I would say is how I worked with my team, as we were organised, efficient and effective. I learnt how to do branching on GitHub repositories and merge branches together, also I found that we split up the work well and played to each other's strengths. Using tools like Miro and Trello helped our organisation so we prevented as many conflicts with the code as possible.
 
 Further it was nice to learn how to seed the database by creating our own seed files. I was mainly responsible for the user seeding, so this was a great experience to get more of an experience of working with data and structuring it for the application.
 
 A challenge I found on this project was not being so comfortable with creating the Schema models, including adding virtual fields in the models. After working on the event and user Schema’s and implementing some of the virtual fields I felt much more comfortable and confident in my ability for this area now. 
 
-
+In the future I would like to add a feature of letting users be able to add there own events, and then also a messenger section that allows users to interact with eacthother making it more of a social application.

@@ -153,23 +153,23 @@ Throughout this project, I gained valuable experience in collaborating within a 
 
 Undertaking this project was a significant milestone in my collaborative coding journey. Despite encountering challenges in the form of conflicting ideas and visions, managing divergent branches, and dealing with conflicting code, I learned the immense value of collective problem-solving. Collaborating with others allowed us to spot errors or find solutions more quickly, especially when someone was stuck and needed a fresh perspective.
 
-# Embracing Collaborative Git Workflows
+## Embracing Collaborative Git Workflows
 Our journey with Git brought a profound shift in our understanding and utilisation of this powerful version control system. Through collaboration, we delved into the intricacies of branching, merging, and resolving conflicts. When faced with challenges, we found solace in diving into documentation, ultimately empowering ourselves to harness Git's full potential.
 
-# Unveiling the Power of Node/Express
+## Unveiling the Power of Node/Express
 Embarking on our first substantial practical encounter with Node and Express, we discovered a newfound appreciation for these tools. By dedicating a full day to construct and test routes and controllers using Insomnia, we gained valuable insights into the inner workings of these technologies. Though our journey with Node was still in its infancy, we managed to effectively access and utilise the necessary data on the front-end, paving the way for future optimisation.
 
-# Unleashing Flexibility with MongoDB/Mongoose
+## Unleashing Flexibility with MongoDB/Mongoose
 Venturing into uncharted territory with MongoDB and Mongoose proved to be a captivating yet challenging experience. At first, the flexibility of data model development overwhelmed us, as we grappled with finding the "perfect" approach. However, as we progressed, we discovered the liberation of embracing diverse schemas and relationships. The NoSQL approach eventually revealed its advantages, especially when adapting to evolving requirements.
 
-# Advancing Proficiency in React
+## Advancing Proficiency in React
 While we had prior experience with React, this project elevated our understanding to new heights. The project's complexity demanded mastery of state management with hooks, particularly when implementing functionalities like likes and comments. We were captivated by the intricate interplay between front-end data manipulation and backend communication.
 
-# Embracing Chakra UI for Rapid Development
+## Embracing Chakra UI for Rapid Development
 In pursuit of an efficient UI framework for our project, we embraced Chakra UI, a decision that we found to be highly rewarding. The framework's ease of use and compatibility with our required features made the development process smoother. We particularly admired its flexibility in restyling components and ensuring a responsive design.
 
-# Unleashing Creativity with Vanilla JavaScript
+## Unleashing Creativity with Vanilla JavaScript
 A crowning achievement in our project was the habit completion progress widget. This endeavour pushed our JavaScript skills to new horizons as we engaged in generating dynamic divs, styling them conditionally, and leveraging array methods like mapping and filtering. While we acknowledge the potential for backend optimisation, the experience provided a unique opportunity to master JS methods and access nested data effectively.
 
-# Empowering with Cloudinary Upload API
+## Empowering with Cloudinary Upload API
 Navigating the unexplored territory of Cloudinary, we unlocked the potential of integrating file upload functionality. Through React state management and Cloudinary account credentials, we seamlessly facilitated the addition of uploaded image URLs to the backend. This achievement marked yet another milestone in our journey of continuous learning and growth.

@@ -75,7 +75,7 @@ We then started to move onto Trello to plan out our time for this project. How w
 To work together on the code as a group we used branches on GitHub and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. Every morning we had a stand up on zoom to discuss how we were getting on with the work and organising what everyone is doing. This really helped to prevent conflicts and productivity. It was a great team working experience and I'm happy with how we work together. 
 
 # Code examples
-Register a user and Loggin in:
+Register a user and Logging in (Server side):
 
 ```javascript
 export const registerUser = async (req, res) => {
@@ -110,7 +110,7 @@ export const loginUser = async (req, res) => {
 }
 ```
 
-User schema:
+User schema (Server side):
 
 ```javascript
 const userSchema = new Schema({
@@ -125,7 +125,7 @@ const userSchema = new Schema({
 })
 ```
 
-Get the data for the user that is logged in:
+Get the data for the user that is logged in (Client side):
 
 ```javascript
  useEffect(() => {
@@ -149,12 +149,27 @@ Get the data for the user that is logged in:
 ```
 
 # Key learning and takeaways
-My main learning for this project was understanding how full-stack applications work, from building the back end and the front end. Learning how to install MongoDB and use it to create a database to be used in the back end is something I haven’t done before and was great to learn and implement. This is the first project of mine where I used a styling framework (in this case it was Chakra framework). I quite enjoy doing CSS styling so it took some practice to get used to the way you can style using frameworks. However the more I styled using the framework I could see how easy it was to use and read.
+Throughout this project, I gained valuable experience in collaborating within a software development team and utilising essential tools like GitHub and branching. One of the most rewarding aspects was mastering the installation and utilisation of MongoDB to create and seed databases for the backend, which was entirely new to me. Working with a styling framework, namely Chakra, was also a first for me, and although it took some practice, I found myself enjoying the process of CSS styling within this framework.
 
-Another big win for me I would say is how I worked with my team, as we were organised, efficient and effective. I learnt how to do branching on GitHub repositories and merge branches together, also I found that we split up the work well and played to each other's strengths. Using tools like Miro and Trello helped our organisation so we prevented as many conflicts with the code as possible.
+Undertaking this project was a significant milestone in my collaborative coding journey. Despite encountering challenges in the form of conflicting ideas and visions, managing divergent branches, and dealing with conflicting code, I learned the immense value of collective problem-solving. Collaborating with others allowed us to spot errors or find solutions more quickly, especially when someone was stuck and needed a fresh perspective.
 
-Further it was nice to learn how to seed the database by creating our own seed files. I was mainly responsible for the user seeding, so this was a great experience to get more of an experience of working with data and structuring it for the application.
+# Embracing Collaborative Git Workflows
+Our journey with Git brought a profound shift in our understanding and utilisation of this powerful version control system. Through collaboration, we delved into the intricacies of branching, merging, and resolving conflicts. When faced with challenges, we found solace in diving into documentation, ultimately empowering ourselves to harness Git's full potential.
 
-A challenge I found on this project was not being so comfortable with creating the Schema models, including adding virtual fields in the models. After working on the event and user Schema’s and implementing some of the virtual fields I felt much more comfortable and confident in my ability for this area now. 
+# Unveiling the Power of Node/Express
+Embarking on our first substantial practical encounter with Node and Express, we discovered a newfound appreciation for these tools. By dedicating a full day to construct and test routes and controllers using Insomnia, we gained valuable insights into the inner workings of these technologies. Though our journey with Node was still in its infancy, we managed to effectively access and utilise the necessary data on the front-end, paving the way for future optimisation.
 
-In the future I would like to add a feature of letting users be able to add there own events, and then also a messenger section that allows users to interact with eacthother making it more of a social application.
+# Unleashing Flexibility with MongoDB/Mongoose
+Venturing into uncharted territory with MongoDB and Mongoose proved to be a captivating yet challenging experience. At first, the flexibility of data model development overwhelmed us, as we grappled with finding the "perfect" approach. However, as we progressed, we discovered the liberation of embracing diverse schemas and relationships. The NoSQL approach eventually revealed its advantages, especially when adapting to evolving requirements.
+
+# Advancing Proficiency in React
+While we had prior experience with React, this project elevated our understanding to new heights. The project's complexity demanded mastery of state management with hooks, particularly when implementing functionalities like likes and comments. We were captivated by the intricate interplay between front-end data manipulation and backend communication.
+
+# Embracing Chakra UI for Rapid Development
+In pursuit of an efficient UI framework for our project, we embraced Chakra UI, a decision that we found to be highly rewarding. The framework's ease of use and compatibility with our required features made the development process smoother. We particularly admired its flexibility in restyling components and ensuring a responsive design.
+
+# Unleashing Creativity with Vanilla JavaScript
+A crowning achievement in our project was the habit completion progress widget. This endeavour pushed our JavaScript skills to new horizons as we engaged in generating dynamic divs, styling them conditionally, and leveraging array methods like mapping and filtering. While we acknowledge the potential for backend optimisation, the experience provided a unique opportunity to master JS methods and access nested data effectively.
+
+# Empowering with Cloudinary Upload API
+Navigating the unexplored territory of Cloudinary, we unlocked the potential of integrating file upload functionality. Through React state management and Cloudinary account credentials, we seamlessly facilitated the addition of uploaded image URLs to the backend. This achievement marked yet another milestone in our journey of continuous learning and growth.

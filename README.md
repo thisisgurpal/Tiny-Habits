@@ -62,19 +62,33 @@ The event page gives the information needed to understand the challenge and also
 <img src="https://user-images.githubusercontent.com/97416784/161272322-70b21bdf-cb22-414e-a3f7-6133544c49a9.JPG" width="1000">
 
 # Planning & organisation
-Initially to start with coming up with ideas and components for this application we brainstormed for about 5-10 minutes. Any idea that came to mind we put down and then narrowed it down upon review.
-<h3></h3>
+Initially we immersed ourselves in an invigorating brainstorming session. For approximately 5-10 minutes, our minds ran wild, and we unleashed every idea that struck us. No thought was too big or too small; we eagerly jotted them all down. After this exhilarating brainstorm, we thoughtfully reviewed our myriad of ideas, carefully selecting the ones that resonated the most. This process of exploration and refinement laid the foundation for our exciting project ahead.<h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837626-f27d783c-92d7-458c-a6ff-e3fbc33345d7.JPG" width="1000">
-We then started to wireframe what we wanted the application to look like, this become our minimal viable product.
-<h3></h3>
+During the planning phase, we engaged in wireframing sessions to outline the application's visual design and core features. These wireframes formed the basis of our minimal viable product, providing a clear roadmap for its development. By creating these essential visual blueprints, we ensured a professional and well-structured approach to building our application.<h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837933-6cc3fc71-f6e9-4625-a503-40b007695b35.JPG" width="1000">
-In this planning process we also thought about how we want our API to look, the data structure and the fields needed. The user will have an array of events they have joined and habits they have completed. The event will have an array of users joined (members) and habits completed. The habit completed will have the owner (user that created the habit) and the associated event.
+During the meticulous planning process, we devoted considerable thought to crafting our API's structure, data format, and required fields. The envisioned API would facilitate a seamless user experience, empowering users to access an array of events they've joined and their completed habits.
+
+To ensure increased functionality, we designed each event to include an array of joined users (members) and completed habits. These interconnected elements would provide a holistic view of the users' engagement within the application.
+
+Moreover, we carefully considered the habit completed data, intending to capture both the habit's owner (the user who created it) and its associated event. This comprehensive data structure would facilitate efficient data management and enable users to track their habits and event participation with ease.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/160837814-65e31b8c-0856-4f11-8548-b4431cd2417b.JPG" width="500">
-We then started to move onto Trello to plan out our time for this project. How we will work and who will be working on what. We all made a valuable contribution to complete the back end. Then we were able to start to split up the work when we moved onto the front end. I was mainly responsible for helping to build the back end, implementing the image uploader using cloudinary, designing the front end profile page pages for users, adding the habits completed feed, ensuring you are able to edit and delete where necessary, seeding the users and also bug fixing. 
+As we progressed with the project, we transitioned to Trello to chart our course and allocate time effectively. Collaboratively, we determined the work distribution and identified the tasks each team member would undertake.
+
+Our collective efforts led to the successful completion of the back-end development, where we collaborated closely to ensure a robust and functional foundation.
+
+When we shifted focus to the front-end, we began splitting the workload to maximize efficiency. In this phase, I assumed primary responsibility for key areas, including implementing the image uploader with Cloudinary, crafting captivating front-end profile pages for users, integrating the habits completed feed, ensuring seamless edit and delete functionalities, performing user data seeding, and resolving bugs.
+
+This collaboration enabled us to deliver a polished application that not only met but exceeded our expectations. Each team member's valuable contribution played a pivotal role in shaping the project's success, and the journey showcased the true power of teamwork in delivering a cohesive and well-executed application.
 <h3></h3>
 <img src="https://user-images.githubusercontent.com/97416784/161279199-00b87a0c-cd8a-4ee0-a341-4370899be3ad.JPG" width="1000">
-To work together on the code as a group we used branches on GitHub and then when merging to the development branch. We tried our best to not work on the same files at the same time and whenever we did have merge conflicts we reviewed them as a group. Every morning we had a stand up on zoom to discuss how we were getting on with the work and organising what everyone is doing. This really helped to prevent conflicts and productivity. It was a great team working experience and I'm happy with how we work together. 
+To improve collaboration, we harnessed the power of GitHub branches to work collectively on the code. By creating separate branches for our individual tasks, we ensured a structured development process. When ready, we merged our changes into the development branch, keeping the codebase cohesive and organized.
+
+To avoid overlapping efforts, we made a conscious effort not to work on the same files simultaneously. In case of merge conflicts, we proactively reviewed and resolved them as a group. This collaborative approach helped maintain code integrity and minimized disruptions.
+
+Daily stand-up meetings on Zoom became a cornerstone of our team's rhythm. Each morning, we gathered to discuss progress, challenges, and upcoming tasks. This open communication allowed us to synchronize our efforts, prevent conflicts, and enhance productivity.
+
+Our teamwork experience was truly gratifying, and the synergy among the team members contributed to the project's success. The camaraderie and dedication we exhibited reinforced our belief in the power of collaboration, leaving us content with the results of our collective efforts.
 
 # Code examples
 Register a user and Logging in (Server side):
